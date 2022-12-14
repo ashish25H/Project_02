@@ -1,0 +1,95 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+body {
+  height: 763px;
+  background-image: url("./assets/bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #141010;
+  color: #ffffff;
+}
+
+div img {
+  width: 90px;
+  margin: 0 70px 0 70px;
+}
+
+.line {
+  border-left: 2px solid #ffffff;
+  height: 35px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list-item {
+  list-style: none;
+  margin-left: 70px;
+}
+
+.button-small {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #f726f0;
+  margin-left: 450px;
+}
+
+.list-item:first-child::after {
+  content: ">";
+  display: inline-block;
+  rotate: 90deg;
+  margin-left: 10px;
+}
+
+/* -------------------------Hero Section------------------------------- */
+
+.hero {
+  height: 650px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-heading {
+  color: #ffffff;
+  font-size: 75px;
+  /* margin: 0 0 0 39px; */
+  text-align: center;
+}
+.hero-description {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.button-large {
+  color: #ffffff;
+  background-color: #f726f0;
+  border: none;
+  font-size: 16px;
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
